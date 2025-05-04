@@ -1,0 +1,23 @@
+% Esenciales:
+\usepackage[margin=1in]{geometry}
+\usepackage{tikz,pgfplots}
+\usepackage{graphicx}
+\usepackage{float}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{listings}          % Para código
+\usepackage{xcolor}            % Para colores
+
+
+\usepackage{titlesec}   % Para modificar títulos
+\usepackage{tocloft}    % Para personalizar el índice
+% --- Ocultar números en títulos (pero mantener en índice) ---
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{}{0em}{}  % Sin número visible
+\titleformat{\subsection}
+  {\normalfont\large\bfseries}{}{0em}{}  % Sin número visible
+
+% --- Asegurar que el índice muestre los números ---
+\renewcommand{\cftsecaftersnum}{.}       % Punto después del número (opcional)
+\renewcommand{\cftsubsecaftersnum}{.}    % Ej: "1.2." en el índice
