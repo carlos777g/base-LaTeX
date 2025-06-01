@@ -1,7 +1,7 @@
 #### Para imagenes:
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.4\textwidth]{./img/logo-ipn.png} % Ajusta el ancho
+    \includegraphics[width=1\textwidth]{./img/logo-ipn.png} % Ajusta el ancho
     \caption{Descripción breve de la imagen.}
     \label{fig:ejemplo}
 \end{figure}
