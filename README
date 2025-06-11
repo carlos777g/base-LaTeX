@@ -10,13 +10,13 @@ Plantilla modular para reportes académicos/profesionales en LaTeX con configura
 ## 🛠️ Estructura del Proyecto
 .
 ├── main.tex # Archivo principal
-├── config/
+├── config/ # Librerias y configuraciones iniciales
 │ ├── paquetes.tex # Paquetes esenciales
 │ ├── colores.tex # Paleta de colores
 │ └── listings_styles.tex # Estilos para código
 ├── portada/
-│ └── portada_default.tex # Portada con variables
-├── secciones/ # Contenido modular
+│ └── portada.tex # Portada con variables
+├── secciones/ # Contenido modular (Crea tus propias secciones)
 │ ├── introduccion.tex
 │ └── desarrollo.tex
 ├── img/ # Imágenes/gráficas
