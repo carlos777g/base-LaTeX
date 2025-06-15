@@ -11,7 +11,8 @@
 *.blg
 *.lof
 *.lot
-
+main-blx.bib
+*.xml
 ## Editor/IDE ##
 .vscode/
 .idea/
