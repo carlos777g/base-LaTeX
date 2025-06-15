@@ -1,3 +1,6 @@
+#### Para citas:
+para algunos ejemplos de esto son \cite{qapla2023}:
+
 #### Para imagenes:
 \begin{figure}[H]
     \centering

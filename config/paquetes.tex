@@ -11,8 +11,18 @@
 % \usepackage{helvet}
 % \renewcommand{\familydefault}{\sfdefault}
 
+% Para citas bibliograficas:
+\usepackage[backend=bibtex, style=numeric]{biblatex}
+\addbibresource{bib/referencias.bib}
+
 % Índice clickeable
-\usepackage[colorlinks=true, linkcolor=black]{hyperref}
+% \usepackage[colorlinks=true, linkcolor=black]{hyperref}
+\usepackage[
+  colorlinks=true,
+  linkcolor=black,      % Títulos, referencias internas, índice
+  citecolor=black,      % Citas [1], [2], etc.
+  urlcolor=blue         % Enlaces web
+]{hyperref}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
